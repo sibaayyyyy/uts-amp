@@ -1,0 +1,19 @@
+name: flutter_ui_3pages
+description: A Flutter UI project with 3 pages (Login, Dashboard, Profile)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    # Removed missing asset 'assets/images/avatar_default.png' — create this file at assets/images/avatar_default.png
+    # and restore the line above if you want to include it.
